@@ -41,7 +41,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/SALOMÉ/OneDrive/Escritorio/Univalle/BatallaNaval1",
+    "last_opened_file_path": "C:/Users/SALOMÉ/OneDrive/Escritorio/batallaNaval",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -61,12 +61,23 @@
       <updated>1716247043906</updated>
       <workItem from="1716247044987" duration="1583000" />
       <workItem from="1716249056768" duration="868000" />
-      <workItem from="1716249959640" duration="151000" />
+      <workItem from="1716249959640" duration="888000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
