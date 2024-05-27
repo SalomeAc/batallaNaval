@@ -5,4 +5,6 @@ module org.example.batallanaval1 {
 
     opens org.example.batallanaval1 to javafx.fxml;
     exports org.example.batallanaval1;
+    opens org.example.batallanaval1.controller;
+    exports org.example.batallanaval1.controller;
 }

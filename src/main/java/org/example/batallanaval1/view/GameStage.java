@@ -4,14 +4,13 @@ import javafx.fxml.FXMLLoader;
 import javafx.scene.Parent;
 import javafx.scene.Scene;
 import javafx.scene.image.Image;
+import javafx.scene.layout.Pane;
+import javafx.scene.shape.Polyline;
 import javafx.stage.Stage;
 import org.example.batallanaval1.controller.GameController;
-import org.example.batallanaval1.model.Ship;
 
 
 import java.io.IOException;
-import java.util.ArrayList;
-import java.util.List;
 
 public class GameStage extends Stage {
     private GameController gameController;
@@ -26,11 +25,6 @@ public class GameStage extends Stage {
                 new Image(
                         String.valueOf(getClass().getResource("/org/example/batallanaval1/images/favicon.png"))));
 
-        List<Ship> shipsArray = new ArrayList<>();
-
-
-
-
         setResizable(false);
         setScene(scene);
         show();
@@ -41,9 +35,14 @@ public class GameStage extends Stage {
     private static class GameStageHolder {
         private static GameStage INSTANCE;
     }
-    public static  void deleteInstance () {
+    public static void deleteInstance () {
         GameStageHolder.INSTANCE.close();
         GameStageHolder.INSTANCE = null;
     }
+    
+    public void addShip(Polyline polyline){
+
+    }
+
 
 }
