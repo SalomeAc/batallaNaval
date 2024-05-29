@@ -4,101 +4,76 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bcf72448-9959-47dc-bd26-4def316b1c7d" name="Changes" comment="" />
+    <list default="true" id="12ab0f2a-63d3-480d-9d01-ff8a59ac2325" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/batallanaval1/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/batallanaval1/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/batallanaval1/controller/GameController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/batallanaval1/controller/GameController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/batallanaval1/model/AircraftCarrier.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/batallanaval1/model/AircraftCarrier.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/batallanaval1/model/Board.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/batallanaval1/model/Destroyer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/batallanaval1/model/Destroyer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/batallanaval1/model/Frigate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/batallanaval1/model/Frigate.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/batallanaval1/model/Submarine.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/batallanaval1/model/Submarine.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/batallanaval1/view/GameStage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/batallanaval1/view/GameStage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/org/example/batallanaval1/game-view.fxml" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="JavaFXApplication" />
-        <option value="Class" />
-      </list>
-    </option>
-  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="MarkdownSettingsMigration">
-    <option name="stateVersion" value="1" />
-  </component>
-  <component name="MavenImportPreferences">
-    <option name="generalSettings">
-      <MavenGeneralSettings>
-        <option name="mavenHome" value="Use Maven wrapper" />
-      </MavenGeneralSettings>
-    </option>
-  </component>
-  <component name="ProjectColorInfo">{
-  &quot;associatedIndex&quot;: 2
-}</component>
-  <component name="ProjectId" id="2gkgYucbhBaarL2hktDVjwfFaTI" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
-    <ConfirmationsSetting value="2" id="Add" />
-  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 6
+}]]></component>
+  <component name="ProjectId" id="2h7xDhNRPHMvTYll107nGb2ITIr" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "Application.HelloApplication.executor": "Run",
-    "Application.Main.executor": "Run",
+    "Application.main.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "sam",
+    "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/SALOMÉ/OneDrive/Escritorio/Univalle/BatallaNaval1/src/main/java/org/example/batallanaval1/model",
+    "last_opened_file_path": "C:/Users/Asus/IdeaProjects/BatallaNaval1Finalista",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "vcs.Git",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\SALOMÉ\OneDrive\Escritorio\Univalle\BatallaNaval1\src\main\java\org\example\batallanaval1\model" />
-      <recent name="C:\Users\SALOMÉ\OneDrive\Escritorio\Univalle\BatallaNaval1\src\main\resources\org\example\batallanaval1\Images" />
-    </key>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="jdk-17.0.10-corretto-17.0.10-4caba194b151-5cd809f4" />
+      </set>
+    </attachedChunks>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="bcf72448-9959-47dc-bd26-4def316b1c7d" name="Changes" comment="" />
-      <created>1716247043906</created>
+      <changelist id="12ab0f2a-63d3-480d-9d01-ff8a59ac2325" name="Changes" comment="" />
+      <created>1716958799093</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1716247043906</updated>
-      <workItem from="1716247044987" duration="1583000" />
-      <workItem from="1716249056768" duration="868000" />
-      <workItem from="1716249959640" duration="1429000" />
-      <workItem from="1716475419812" duration="3154000" />
-      <workItem from="1716498822623" duration="910000" />
-      <workItem from="1716684157037" duration="661000" />
-      <workItem from="1716779139101" duration="6782000" />
+      <updated>1716958799093</updated>
+      <workItem from="1716958800203" duration="4114000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
-  </component>
-  <component name="Vcs.Log.Tabs.Properties">
-    <option name="TAB_STATES">
-      <map>
-        <entry key="MAIN">
-          <value>
-            <State />
-          </value>
-        </entry>
-      </map>
-    </option>
-  </component>
-  <component name="VcsManagerConfiguration">
-    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
 </project>
