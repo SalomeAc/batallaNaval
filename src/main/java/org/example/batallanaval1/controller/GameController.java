@@ -1,27 +1,31 @@
 package org.example.batallanaval1.controller;
 
 import javafx.fxml.FXML;
-import javafx.scene.Scene;
+import javafx.scene.control.Label;
 import javafx.scene.layout.GridPane;
-import javafx.scene.shape.Polyline;
-import javafx.stage.Stage;
-import org.example.batallanaval1.view.GameStage;
+import javafx.scene.layout.HBox;
+import javafx.scene.layout.Pane;
 
 public class GameController {
 
     @FXML
-    private GridPane oponentGrid;
+    private GridPane gridPlayer;
 
     @FXML
-    private GridPane playerGrid;
+    private HBox hbxHead;
 
-    private GameStage gameStage;
+    @FXML
+    private Label lblTitle;
 
-//    @FXML
-//    public void initialize() {
-//
-//
-//    }
+    @FXML
+    private Pane paneBaseA;
+    @FXML
+    private Pane paneBaseB;
+    private StartController startController;
 
-
+    public void initialize(){
+        gridPlayer = new GridPane();
+        startController = new StartController();
+        //gridPlayer=startController.getBoardPlayer1();
+    }
 }
