@@ -4,37 +4,19 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bcf72448-9959-47dc-bd26-4def316b1c7d" name="Changes" comment="" />
+    <list default="true" id="12ab0f2a-63d3-480d-9d01-ff8a59ac2325" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="JavaFXApplication" />
-        <option value="Class" />
-      </list>
-    </option>
-  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="MarkdownSettingsMigration">
-    <option name="stateVersion" value="1" />
-  </component>
-  <component name="MavenImportPreferences">
-    <option name="generalSettings">
-      <MavenGeneralSettings>
-        <option name="mavenHome" value="Use Maven wrapper" />
-      </MavenGeneralSettings>
-    </option>
-  </component>
   <component name="ProjectColorInfo">{
-  &quot;associatedIndex&quot;: 2
+  &quot;associatedIndex&quot;: 6
 }</component>
-  <component name="ProjectId" id="2gkgYucbhBaarL2hktDVjwfFaTI" />
+  <component name="ProjectId" id="2h7xDhNRPHMvTYll107nGb2ITIr" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
@@ -44,49 +26,41 @@
   </component>
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;Application.HelloApplication.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
     &quot;Application.main.executor&quot;: &quot;Run&quot;,
-    &quot;Notification.DisplayName-DoNotAsk-Vcs Important Messages&quot;: &quot;VCS important messages&quot;,
-    &quot;Notification.DoNotAsk-Vcs Important Messages&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;sam&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
     &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/SALOMÉ/OneDrive/Escritorio/Univalle/BatallaNaval1/src/main/resources/org/example/batallanaval1&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/SALOMÉ/OneDrive/Escritorio/Univalle/BatallaNaval1/src/main/resources/org/example/batallanaval1/Images&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;vcs.Git&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\SALOMÉ\OneDrive\Escritorio\Univalle\BatallaNaval1\src\main\resources\org\example\batallanaval1" />
-      <recent name="C:\Users\SALOMÉ\OneDrive\Escritorio\Univalle\BatallaNaval1\src\main\java\org\example\batallanaval1\model" />
       <recent name="C:\Users\SALOMÉ\OneDrive\Escritorio\Univalle\BatallaNaval1\src\main\resources\org\example\batallanaval1\Images" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\SALOMÉ\OneDrive\Escritorio\Univalle\BatallaNaval1\src\main\resources\org\example\batallanaval1\Images" />
-    </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="org.example.batallanaval1.model" />
-      <recent name="org.example.batallanaval1" />
-      <recent name="org.example.batallanaval1.view" />
-      <recent name="org.example.batallanaval1.controller" />
-    </key>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="jdk-17.0.10-corretto-17.0.10-4caba194b151-5cd809f4" />
+      </set>
+    </attachedChunks>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="bcf72448-9959-47dc-bd26-4def316b1c7d" name="Changes" comment="" />
-      <created>1716247043906</created>
+      <changelist id="12ab0f2a-63d3-480d-9d01-ff8a59ac2325" name="Changes" comment="" />
+      <created>1716958799093</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1716247043906</updated>
+      <updated>1716958799093</updated>
       <workItem from="1716247044987" duration="1583000" />
       <workItem from="1716249056768" duration="868000" />
       <workItem from="1716249959640" duration="1429000" />
@@ -100,24 +74,13 @@
       <workItem from="1716861439405" duration="1195000" />
       <workItem from="1716947976214" duration="662000" />
       <workItem from="1717078472407" duration="2940000" />
+      <workItem from="1716958800203" duration="4114000" />
+      <workItem from="1717094521008" duration="1341000" />
+      <workItem from="1717098178908" duration="2635000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
-  </component>
-  <component name="Vcs.Log.Tabs.Properties">
-    <option name="TAB_STATES">
-      <map>
-        <entry key="MAIN">
-          <value>
-            <State />
-          </value>
-        </entry>
-      </map>
-    </option>
-  </component>
-  <component name="VcsManagerConfiguration">
-    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
 </project>

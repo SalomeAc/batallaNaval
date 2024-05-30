@@ -1,8 +1,9 @@
 package org.example.batallanaval1.controller;
 
+import javafx.scene.Node;
+import javafx.scene.layout.GridPane;
 import org.example.batallanaval1.model.*;
 import org.example.batallanaval1.view.GameStage;
-import org.example.batallanaval1.view.StartStage;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.scene.control.Button;
@@ -34,8 +35,21 @@ public class StartController extends Stage {
 
     @FXML
     private Label lblTitle;
+    @FXML
+    private GridPane gridPlayer1;
 
+    public GridPane getGridPlayer1() {
+        return gridPlayer1;
+    }
 
+    public Node getNodeFromGridPane(GridPane gridPane, int col, int row) {
+        for (Node node : gridPane.getChildren()) {
+            if (GridPane.getColumnIndex(node) == col && GridPane.getRowIndex(node) == row) {
+                return node;
+            }
+        }
+        return null;
+    }
     private DraggableMaker draggableMaker = new DraggableMaker();
     private Submarine submarino1,submarino2;
     private Destroyer destructores1,destructores2;
@@ -132,23 +146,28 @@ public class StartController extends Stage {
             }
         }
 
-        basicPane.getChildren().addAll(portaAvion.getPortaAviones(), fragata1.getFrigate(), fragata2.getFrigate(),fragata3.getFrigate(),fragata4.getFrigate(), submarino1.getSubmarino(),submarino2.getSubmarino(),destructores1.getDestructor(),destructores2.getDestructor());
 
-        draggableMaker.makeDraggable(portaAvion.getPortaAviones());
+        basicPane.getChildren().addAll(portaAvion.getAircraftCarrier(), fragata1.getFrigate(), fragata2.getFrigate(),fragata3.getFrigate(),fragata4.getFrigate(), submarino1.getSubmarine(),submarino2.getSubmarine(),destructores1.getDestroyer(),destructores2.getDestroyer());
+
+        draggableMaker.makeDraggable(portaAvion.getAircraftCarrier());
         draggableMaker.makeDraggable(fragata1.getFrigate());
         draggableMaker.makeDraggable(fragata2.getFrigate());
         draggableMaker.makeDraggable(fragata3.getFrigate());
         draggableMaker.makeDraggable(fragata4.getFrigate());
-        draggableMaker.makeDraggable(submarino1.getSubmarino());
-        draggableMaker.makeDraggable(submarino2.getSubmarino());
-        draggableMaker.makeDraggable(destructores1.getDestructor());
-        draggableMaker.makeDraggable(destructores2.getDestructor());
+        draggableMaker.makeDraggable(submarino1.getSubmarine());
+        draggableMaker.makeDraggable(submarino2.getSubmarine());
+        draggableMaker.makeDraggable(destructores1.getDestroyer());
+        draggableMaker.makeDraggable(destructores2.getDestroyer());
     }
 
     @FXML
     void onHandleButtonStartGame(ActionEvent event) throws IOException {
-        GameStage.getInstance();
-        StartStage.deleteInstance();
+        try {
+            GameStage gameStage = GameStage.getInstance(gridPlayer1);
+            gameStage.show();
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
     }
 
     public Pane getGameBoard() {

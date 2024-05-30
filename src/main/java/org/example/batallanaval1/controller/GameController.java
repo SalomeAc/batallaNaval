@@ -6,6 +6,9 @@ import javafx.scene.layout.GridPane;
 import javafx.scene.layout.HBox;
 import javafx.scene.layout.Pane;
 
+import javafx.scene.Node;
+
+
 public class GameController {
 
     @FXML
@@ -21,11 +24,26 @@ public class GameController {
     private Pane paneBaseA;
     @FXML
     private Pane paneBaseB;
-    private StartController startController;
 
-    public void initialize(){
-        gridPlayer = new GridPane();
-        startController = new StartController();
-        //gridPlayer=startController.getBoardPlayer1();
+    private int parentWidth = 682;  // Ancho del AnchorPane
+    private int parentHeight = 408; // Alto del AnchorPane
+
+    public void initialize() {
+        // Inicializa los elementos necesarios
+    }
+
+    public void setGridPlayer(GridPane gridPlayer) {
+        this.gridPlayer = gridPlayer;
+        initializeGrid();
+    }
+    private void initializeGrid() {
+        for (Node node : gridPlayer.getChildren()) {
+            Integer colIndex = GridPane.getColumnIndex(node);
+            Integer rowIndex = GridPane.getRowIndex(node);
+            if (colIndex != null && rowIndex != null) {
+                gridPlayer.add(node, colIndex, rowIndex);
+            }
+        }
+
     }
 }

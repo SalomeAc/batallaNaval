@@ -7,43 +7,32 @@ import javafx.scene.shape.Polygon;
 import javafx.scene.transform.Rotate;
 
 public class Submarine {
-    private Polygon submarino;
+    private Polygon submarine;
     private double layoutX, layoutY;
 
     public Submarine() {
-        submarino = new Polygon(
-                0, 32,   // A
-                16, 0,   // B
-                32, 32,  // C
+        submarine = new Polygon(
+                0, 32,
+                16, 0,
+                32, 32,
+                32, 96,
+                0, 96
 
-                96, 32,
-                32, 96
-
-
-//                16, 32,  // D
-//                32, 64,  // E
-//                16, 64,  // F
-//                32, 96,  // G
-//                0, 96,   // K
-//                16, 64,  // F
-//                0, 64,   // L
-//                16, 32,  // D
-//                0, 32    // A
         );
-        submarino.setFill(Color.rgb(178, 52, 95));
-        submarino.setStrokeWidth(1);
-        submarino.setStroke(Color.rgb(136, 35, 70));
+        submarine.setFill(Color.web("#8E7BCC"));
+        submarine.setStrokeWidth(1);
+        submarine.setStroke(Color.web("Black"));
 
         // Agrega un evento de click al submarino para detectar clics del usuario
-        submarino.setOnMouseClicked(this::handleSubmarinoClick);
+        submarine.setOnMouseClicked(this::handleSubmarineClick);
     }
 
-    public Polygon getSubmarino() {
-        return submarino;
+    public Polygon getSubmarine() {
+        return submarine;
     }
 
-    public void setSubmarino(Polygon submarino) {
-        this.submarino = submarino;
+    public void setSubmarine(Polygon submarine) {
+        this.submarine = submarine;
     }
 
     public double getLayoutX() {
@@ -52,7 +41,7 @@ public class Submarine {
 
     public void setLayoutX(double layoutX) {
         this.layoutX = layoutX;
-        submarino.setLayoutX(layoutX);
+        submarine.setLayoutX(layoutX);
     }
 
     public double getLayoutY() {
@@ -61,11 +50,11 @@ public class Submarine {
 
     public void setLayoutY(double layoutY) {
         this.layoutY = layoutY;
-        submarino.setLayoutY(layoutY);
+        submarine.setLayoutY(layoutY);
     }
 
     // Método para manejar el evento de click en el submarino
-    private void handleSubmarinoClick(javafx.scene.input.MouseEvent mouseEvent) {
+    private void handleSubmarineClick(javafx.scene.input.MouseEvent mouseEvent) {
         if (mouseEvent.getButton() == MouseButton.SECONDARY) { // botón derecho
             // Rotar el submarino cuando se hace clic derecho
             rotateClockwise();
@@ -75,8 +64,8 @@ public class Submarine {
 
     // Método para rotar el submarino
     private void rotateClockwise() {
-        Rotate rotate = new Rotate(90, submarino.getBoundsInLocal().getWidth() / 2, submarino.getBoundsInLocal().getHeight() / 2);
-        submarino.getTransforms().add(rotate);
+        Rotate rotate = new Rotate(90, submarine.getBoundsInLocal().getWidth() / 2, submarine.getBoundsInLocal().getHeight() / 2);
+        submarine.getTransforms().add(rotate);
     }
 
 }

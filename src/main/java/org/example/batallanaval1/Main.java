@@ -1,6 +1,6 @@
 package org.example.batallanaval1;
 /*
-Paleta de COlores
+Color palette
 191d32
 fdfdff
 957fef

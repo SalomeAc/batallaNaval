@@ -13,18 +13,21 @@ public class Frigate {
 
     public Frigate() {
         frigate = new Polygon(
+
                 16,0,
                 0,16,
                 0,32,
                 32,32,
                 32,16
+
         );
         frigate.setFill(Color.rgb(0,128,128));
-        frigate.setStroke(Color.rgb(0,79,79));
+        frigate.setStroke(Color.web("Black"));
         frigate.setStrokeWidth(1);
 
+
         // Agrega un evento de click al fragata para detectar clics del usuario
-        frigate.setOnMouseClicked(this::handleFrigateClick);
+        frigate.setOnMouseClicked(this::handleRotarClick);
     }
     public Polygon getFrigate() {
         return frigate;
@@ -42,19 +45,12 @@ public class Frigate {
         this.layoutY = layoutY;
         frigate.setLayoutY(layoutY);
     }
-
-    // Método para manejar el evento de click el la fragata
-    private void handleFrigateClick(javafx.scene.input.MouseEvent mouseEvent) {
+    // Método para manejar el evento de click en los portaaviones
+    private void handleRotarClick(javafx.scene.input.MouseEvent mouseEvent) {
         if (mouseEvent.getButton() == MouseButton.SECONDARY) { // botón derecho
-            // Rotar el fragata cuando se hace clic derecho
-            rotateClockwise();
-            System.out.println("Fragata rotada");
+            // Rotar el submarino cuando se hace clic derecho
+            frigate.getTransforms().add(new javafx.scene.transform.Rotate(90, 16, 48));
+            System.out.println("Fritanga Rotada");
         }
     }
-    // Método para rotar el fragata
-    private void rotateClockwise() {
-        Rotate rotate = new Rotate(90, frigate.getBoundsInLocal().getWidth() / 2, frigate.getBoundsInLocal().getHeight() / 2);
-        frigate.getTransforms().add(rotate);
-    }
-
 }

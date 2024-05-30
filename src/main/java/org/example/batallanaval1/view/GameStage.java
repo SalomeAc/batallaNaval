@@ -4,6 +4,8 @@ import javafx.fxml.FXMLLoader;
 import javafx.scene.Parent;
 import javafx.scene.Scene;
 import javafx.scene.image.Image;
+import javafx.scene.layout.GridPane;
+
 import javafx.stage.Stage;
 
 import java.io.IOException;
@@ -11,29 +13,32 @@ import java.io.IOException;
 public class GameStage extends Stage {
     private GameStage gameStage;
 
-    /**
-     *
-     * @throws IOException
-     */
     public GameStage() throws IOException {
-        FXMLLoader loader = new FXMLLoader(getClass().getResource("/com/example/navalbattle/game-naval-battle.fxml"));
+        FXMLLoader loader = new FXMLLoader(getClass().getResource("/org/example/batallanaval1/game-naval-battle.fxml"));
+
         Parent parent =loader.load();
         setTitle("Naval Battle");
         getIcons().add(
                 new Image(
-                        String.valueOf(getClass().getResource("/com/example/navalbattle/images/favicon.png"))));
+
+                        String.valueOf(getClass().getResource("/org/example/batallanaval1/Images/favicon.png"))));
+
 
 
         Scene scene = new Scene(parent);
         setScene(scene);
-        scene.getStylesheets().add(getClass().getResource("/com/example/navalbattle/NavalBattleStyles.css").toExternalForm());
+
+        scene.getStylesheets().add(getClass().getResource("/org/example/batallanaval1/NavalBattleStyles.css").toExternalForm());
+
         setResizable(false);
         show();
     }
     private static class GameStageHolder{
         private static GameStage INSTANCE;
     }
-    public static GameStage getInstance() throws IOException {
+
+    public static GameStage getInstance(GridPane gridPlayer1) throws IOException {
+
         return GameStageHolder.INSTANCE=new GameStage();
     }
     public static void deleteInstance(){
@@ -42,3 +47,4 @@ public class GameStage extends Stage {
     }
 
 }
+
