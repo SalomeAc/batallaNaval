@@ -1,7 +1,6 @@
 package org.example.batallanaval1.model;
 
 import javafx.scene.Node;
-
 public class DraggableMaker {
     private double posMouseX = 0, posMouseY = 0;
     private int parentWidth = 682;  // Ancho del AnchorPane
@@ -97,7 +96,6 @@ public class DraggableMaker {
                 minDifferenceY = difference; // Actualiza la mínima diferencia registrada
             }
         }
-
         double currentX = node.getLayoutX();
         double[] positionsX = {POSITION_X1, POSITION_X2, POSITION_X3, POSITION_X4, POSITION_X5, POSITION_X6, POSITION_X7, POSITION_X8, POSITION_X9, POSITION_X10};
         double closestX = positionsX[0];

@@ -5,55 +5,67 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="12ab0f2a-63d3-480d-9d01-ff8a59ac2325" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/org/example/batallanaval1/Images/bomb.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/batallanaval1/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/batallanaval1/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/batallanaval1/controller/GameController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/batallanaval1/controller/GameController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/batallanaval1/controller/GameController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/batallanaval1/controller/StartController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/batallanaval1/controller/StartController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/batallanaval1/model/AircraftCarrier.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/batallanaval1/model/AircraftCarrier.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/batallanaval1/model/Board.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/batallanaval1/model/Destroyer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/batallanaval1/model/Destroyer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/batallanaval1/model/DraggableMaker.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/batallanaval1/model/DraggableMaker.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/batallanaval1/model/Frigate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/batallanaval1/model/Frigate.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/batallanaval1/model/Submarine.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/batallanaval1/model/Submarine.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/batallanaval1/view/GameStage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/batallanaval1/view/GameStage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/org/example/batallanaval1/game-view.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/batallanaval1/view/GameStage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/batallanaval1/view/StartStage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/batallanaval1/view/StartStage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/org/example/batallanaval1/game-naval-battle.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/org/example/batallanaval1/start-naval-battle-view.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/org/example/batallanaval1/start-naval-battle-view.fxml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 6
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 6
+}</component>
   <component name="ProjectId" id="2h7xDhNRPHMvTYll107nGb2ITIr" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.main.executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "sam",
-    "ignore.virus.scanning.warn.message": "true",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/Asus/IdeaProjects/BatallaNaval1Finalista",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.main.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;esas&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Asus/IdeaProjects/BatallaNaval1Finalista&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Asus\IdeaProjects\BatallaNaval1Finalista\src\main\resources\org\example\batallanaval1\Images" />
+    </key>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -70,6 +82,8 @@
       <option name="presentableId" value="Default" />
       <updated>1716958799093</updated>
       <workItem from="1716958800203" duration="4114000" />
+      <workItem from="1717025787811" duration="17862000" />
+      <workItem from="1717119768062" duration="11011000" />
     </task>
     <servers />
   </component>

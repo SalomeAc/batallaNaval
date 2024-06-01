@@ -28,7 +28,6 @@ public class StartStage extends Stage {
         return StartStageHolder.INSTANCE=new StartStage();
     }
     public static void deleteInstance(){
-        StartStageHolder.INSTANCE.close();
         StartStageHolder.INSTANCE=null;
     }
 }

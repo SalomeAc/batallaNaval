@@ -1,12 +1,4 @@
 package org.example.batallanaval1;
-/*
-Paleta de COlores
-191d32
-fdfdff
-957fef
-9a031e
-ba2d0b
- */
 import org.example.batallanaval1.model.FileCRUD;
 import org.example.batallanaval1.view.StartStage;
 import javafx.application.Application;

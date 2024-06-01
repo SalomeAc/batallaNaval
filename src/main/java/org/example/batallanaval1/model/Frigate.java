@@ -13,13 +13,18 @@ public class Frigate {
 
     public Frigate() {
         frigate = new Polygon(
-                0,32,//A
-                16,0,//B
-                32,32
+
+                16,0,
+                0,16,
+                0,32,
+                32,32,
+                32,16
+
         );
         frigate.setFill(Color.rgb(0,128,128));
-        frigate.setStroke(Color.rgb(0,79,79));
+        frigate.setStroke(Color.web("Black"));
         frigate.setStrokeWidth(1);
+
 
         // Agrega un evento de click al fragata para detectar clics del usuario
         frigate.setOnMouseClicked(this::handleRotarClick);
@@ -44,7 +49,7 @@ public class Frigate {
     private void handleRotarClick(javafx.scene.input.MouseEvent mouseEvent) {
         if (mouseEvent.getButton() == MouseButton.SECONDARY) { // botón derecho
             // Rotar el submarino cuando se hace clic derecho
-            frigate.getTransforms().add(new javafx.scene.transform.Rotate(90, 16, 48));
+            frigate.getTransforms().add(new javafx.scene.transform.Rotate(70, 18, 42));
             System.out.println("Fritanga Rotada");
         }
     }
