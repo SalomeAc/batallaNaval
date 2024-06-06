@@ -1,0 +1,26 @@
+.root{
+    -fx-background-color: linear-gradient(to bottom right, #ffffff, #ffffff); /* Cambia los colores según tu preferencia */
+    -fx-effect: dropshadow(three-pass-box, rgba(255,255,255,0.3), 10, 0, 0, 0); /* Agrega una sombra para simular el brillo */
+}
+#hbxHead{
+    -fx-start-margin: 30;
+}
+
+#lblTitle{
+    -fx-font-family: "Roboto Slab Medium";
+    -fx-alignment: center;
+    -fx-font-size: 25;
+    -fx-text-fill: #000000;
+    -fx-padding: 80 0 20 0;
+
+}
+#paneBaseA{
+    -fx-background-color: linear-gradient(to bottom left, #fcfcff, #ffffff); /* Cambia los colores según tu preferencia */
+    -fx-effect: dropshadow(three-pass-box, rgba(255, 255, 255, 0), 10, 0, 0, 0); /* Agrega una sombra para simular el brillo */
+
+}
+#paneBaseB{
+    -fx-background-color: linear-gradient(to bottom right, #f9faff, #fcfcff); /* Cambia los colores según tu preferencia */
+    -fx-effect: dropshadow(three-pass-box, rgba(255, 255, 255, 0), 10, 0, 0, 0); /* Agrega una sombra para simular el brillo */
+
+}
