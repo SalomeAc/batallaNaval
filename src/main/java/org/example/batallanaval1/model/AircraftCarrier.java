@@ -4,15 +4,24 @@ import javafx.scene.input.MouseButton;
 import javafx.scene.paint.Color;
 import javafx.scene.shape.Polygon;
 
+import java.io.Serial;
+
+/**
+ * Represents an Aircraft Carrier ship in the naval battle game.
+ */
+
+
 public class AircraftCarrier {
+    private int shipId = 4;
     private Polygon aircraftCarrier;
     private double layouty;
     private double layoutx;
     private int id;
     private DraggableMaker draggableMaker = new DraggableMaker();
-
+    /**
+     * Constructs an AircraftCarrier object with default properties.
+     */
     public AircraftCarrier() {
-
 
         aircraftCarrier = new Polygon(
                 0, 32,//A
@@ -23,7 +32,6 @@ public class AircraftCarrier {
 
         );
 
-        //layoutX="472.0" layoutY="87.0"
         aircraftCarrier.setFill(Color.web("#64113F"));
         aircraftCarrier.setStroke(Color.BLACK);
         aircraftCarrier.setStrokeWidth(1);
@@ -33,33 +41,39 @@ public class AircraftCarrier {
 
     }
 
-
+    /**
+     * Retrieves the polygon representing the Aircraft Carrier.
+     * @return The Polygon object representing the Aircraft Carrier.
+     */
     public Polygon getAircraftCarrier() {
         return aircraftCarrier;
     }
 
-    public void setAircraftCarrier(Polygon aircraftCarrier) {
-        this.aircraftCarrier = aircraftCarrier;
-    }
-
-    public double getLayouty() {
-        return layouty;
-    }
+    /**
+     * Sets the layout Y coordinate of the Aircraft Carrier.
+     * @param layouty The layout Y coordinate.
+     */
 
     public void setLayouty(double layouty) {
         this.layouty = layouty;
         aircraftCarrier.setLayoutY(layouty);
     }
 
-    public double getLayoutx() {
-        return layoutx;
-    }
+
+    /**
+     * Sets the layout X coordinate of the Aircraft Carrier.
+     * @param layoutx The layout X coordinate.
+     */
 
     public void setLayoutx(double layoutx) {
         this.layoutx = layoutx;
         aircraftCarrier.setLayoutX(layoutx);
     }
-    // Método para manejar el evento de click en los portaaviones
+    /**
+     * Handles the mouse click event on the Aircraft Carrier.
+     * Rotates the aircraft carrier 90 degrees clockwise upon right-click.
+     * @param mouseEvent The mouse event triggered by the click.
+     */
     private void handleRotarClick(javafx.scene.input.MouseEvent mouseEvent) {
         if (mouseEvent.getButton() == MouseButton.SECONDARY) { // botón derecho
             // Rotar el submarino cuando se hace clic derecho
